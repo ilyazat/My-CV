@@ -5,7 +5,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: Montserrat Regular;
-  background-color: black;
 }
 
 #main {
@@ -99,15 +98,13 @@ p {
   padding-left: 9.5px;
 }
 
-#references ul{
+#references ul {
   list-style: none;
 }
 
-#references ul li{
+#references ul li {
   margin-bottom: 40px;
 }
-
-
 
 ul {
   max-width: 400px;
@@ -124,7 +121,7 @@ ul li {
   line-height: 25px;
 }
 
-ul li div{
+ul li div {
   margin-left: -15px;
 }
 
@@ -132,7 +129,7 @@ ul li:after {
   position: absolute;
   top: 0px;
   left: -5px;
-  content: '';
+  content: "";
   counter-increment: steps;
   border: 9px solid gray;
   border-radius: 50%;
@@ -156,8 +153,6 @@ ul li:last-of-type:before {
   border: none;
 }
 
-
-
 #portfolio {
   height: 846px;
   width: 800px;
@@ -171,7 +166,6 @@ ul li:last-of-type:before {
   width: 40px;
 }
 
-
 #blocks {
   display: ;
   padding: 0;
@@ -182,7 +176,7 @@ ul li:last-of-type:before {
 
 #block {
   position: relative;
-  box-shadow: 0px 1.5px 3px 0px black;;
+  box-shadow: 0px 1.5px 3px 0px black;
   width: 160px;
   height: 160px;
   margin-right: 60px;
@@ -190,14 +184,14 @@ ul li:last-of-type:before {
   background-color: white;
 }
 
-#blockpicture{
+#blockpicture {
   display: block;
   width: 100%;
   min-height: 110px;
   background-color: lightgray;
 }
 
-#blocktext{
+#blocktext {
   position: absolute;
   max-height: 50px;
   top: 90px;
